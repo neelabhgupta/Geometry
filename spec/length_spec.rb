@@ -7,7 +7,6 @@ describe Length do
       length1 = Length.new(10.0, 'cm')
       length2 = Length.new(100, 'mm')
       expect(length1).to eq(length2)
-    end
-  
+    end  
   end
 end
