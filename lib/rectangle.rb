@@ -7,6 +7,6 @@ class Rectangle
   end
 
   def perimeter
-    "#{2 * (length.length_m + breadth.length_m)} #{Length::UNIT}"
+    (length + breadth) * 2
   end
 end
